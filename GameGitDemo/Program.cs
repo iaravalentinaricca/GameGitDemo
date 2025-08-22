@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Version Control!");
-Console.ReadKey(true);
+﻿using GameGitDemo;
+
+Game game = new Game();
+game.Run();
