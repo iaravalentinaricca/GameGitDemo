@@ -11,7 +11,10 @@ namespace GameGitDemo
     {
         public void Run()
         {
-            WriteLine("*** Welcome to the Game ***");
+            WriteLine("   ___    _     _         ___             \r\n  /___\\__| | __| |___    /___\\_ __  _ __  \r\n //  // _` |/ _` / __|  //  // '_ \\| '_ \\ \r\n/ \\_// (_| | (_| \\__ \\ / \\_//| | | | | | |\r\n\\___/ \\__,_|\\__,_|___/ \\___/ |_| |_|_| |_|\r\n                                          ");
+            WriteLine("*** Welcome to the Game: " +
+                "Odds On! ***");
+
 
             Write("\nWhat is your name? ");
             string name = ReadLine();
