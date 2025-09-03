@@ -8,6 +8,7 @@ namespace GameGitDemo
 {
     internal class Player
     {
+        new Player player;
         public string Name { get; private set; }
 
         public Player(string name)
